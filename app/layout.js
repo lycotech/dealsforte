@@ -1,5 +1,4 @@
 import "./globals.css";
-import Script from "next/script";
 import { SearchProvider } from "../components/SearchContext";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
@@ -32,13 +31,15 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>
-        <Script
+      <head>
+        {/* Google AdSense — literal tag in <head> for site verification */}
+        <script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2358171938555402"
           crossOrigin="anonymous"
-          strategy="afterInteractive"
         />
+      </head>
+      <body>
         <SearchProvider>
           <div className="topbar">
             🔥 <strong>Hot deals daily</strong> — affiliate links help keep
