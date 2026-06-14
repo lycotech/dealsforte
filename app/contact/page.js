@@ -2,6 +2,7 @@ export const metadata = {
   title: "Contact",
   description:
     "Get in touch with the DealsForte team — for deal suggestions, partnerships, or general questions.",
+  alternates: { canonical: "/contact" },
 };
 
 export default function ContactPage() {

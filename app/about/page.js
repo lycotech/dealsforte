@@ -2,6 +2,7 @@ export const metadata = {
   title: "About",
   description:
     "Learn about DealsForte — our mission to help shoppers find the best deals, coupons, and discounts every day.",
+  alternates: { canonical: "/about" },
 };
 
 export default function AboutPage() {

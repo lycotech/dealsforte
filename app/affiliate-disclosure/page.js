@@ -2,6 +2,7 @@ export const metadata = {
   title: "Affiliate Disclosure",
   description:
     "DealsForte's FTC-compliant affiliate disclosure explaining how we earn commissions from the links on our site.",
+  alternates: { canonical: "/affiliate-disclosure" },
 };
 
 export default function AffiliateDisclosurePage() {

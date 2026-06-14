@@ -2,6 +2,7 @@ export const metadata = {
   title: "Terms of Use",
   description:
     "The terms and conditions governing your use of the DealsForte website.",
+  alternates: { canonical: "/terms" },
 };
 
 export default function TermsPage() {

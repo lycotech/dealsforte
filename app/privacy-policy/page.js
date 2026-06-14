@@ -2,6 +2,7 @@ export const metadata = {
   title: "Privacy Policy",
   description:
     "How DealsForte collects, uses, and protects your information, including cookies and affiliate tracking.",
+  alternates: { canonical: "/privacy-policy" },
 };
 
 export default function PrivacyPolicyPage() {
