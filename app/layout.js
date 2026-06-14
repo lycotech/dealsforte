@@ -1,4 +1,5 @@
 import "./globals.css";
+import Script from "next/script";
 import { SearchProvider } from "../components/SearchContext";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
@@ -45,6 +46,19 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body>
+        {/* Google Analytics (gtag.js) */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-2X7YZJ6E84"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-2X7YZJ6E84');
+          `}
+        </Script>
         <SearchProvider>
           <div className="topbar">
             🔥 <strong>Hot deals daily</strong> — affiliate links help keep
