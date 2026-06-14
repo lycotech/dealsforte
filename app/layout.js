@@ -1,4 +1,5 @@
 import "./globals.css";
+import Script from "next/script";
 import { SearchProvider } from "../components/SearchContext";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
@@ -32,6 +33,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2358171938555402"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
         <SearchProvider>
           <div className="topbar">
             🔥 <strong>Hot deals daily</strong> — affiliate links help keep
