@@ -32,6 +32,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+        {/* Impact affiliate network — site verification */}
+        <meta
+          name="impact-site-verification"
+          value="fb4435f4-34ad-4ae8-ab60-aabe82dac3d1"
+        />
         {/* Google AdSense — literal tag in <head> for site verification */}
         <script
           async
