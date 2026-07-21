@@ -41,14 +41,16 @@ export default function DealCard({ deal }) {
           )}
         </div>
 
-        <a
-          className="btn btn-primary btn-block"
-          href={deal.link}
-          target="_blank"
-          rel="nofollow sponsored noopener"
-        >
-          Get Deal
-        </a>
+        <div className="deal-footer-row">
+          <span className="verified-pill">✓ Verified {deal.lastVerified || "recently"}</span>
+          <a
+            className="btn btn-primary btn-block"
+            href={`/deal/${deal.slug}`}
+            rel="nofollow sponsored noopener"
+          >
+            View Deal
+          </a>
+        </div>
       </div>
     </article>
   );

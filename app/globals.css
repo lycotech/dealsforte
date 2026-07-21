@@ -500,6 +500,18 @@ img {
   margin: 40px 0;
 }
 
+.affiliate-slot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.affiliate-slot img {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+
 /* ---------- Newsletter ---------- */
 .newsletter {
   background: linear-gradient(120deg, var(--brand), #4f46e5);
@@ -546,6 +558,17 @@ img {
   padding: 16px;
   max-width: 460px;
   margin: 0 auto;
+}
+
+/* ---------- Section eyebrow ---------- */
+.section-eyebrow {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--brand);
+  margin: 0 0 10px;
 }
 
 /* ---------- Page hero (legal/info) ---------- */
@@ -640,6 +663,250 @@ img {
   font-weight: 600;
 }
 
+/* ---------- Verified pill ---------- */
+.verified-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(22, 163, 74, 0.1);
+  color: var(--success);
+  border-radius: 999px;
+  padding: 6px 10px;
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.deal-footer-row {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.deal-footer-row .btn-block {
+  width: auto;
+}
+
+/* ---------- Deal detail pages ---------- */
+.deal-detail-layout {
+  display: grid;
+  grid-template-columns: 1.4fr 0.8fr;
+  gap: 24px;
+  padding: 40px 20px 60px;
+}
+
+.detail-card,
+.side-card,
+.store-hero-card,
+.guide-card,
+.store-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.detail-card {
+  padding: 24px;
+}
+
+.detail-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 18px;
+}
+
+.detail-badges .deal-badge.verified {
+  background: rgba(22, 163, 74, 0.12);
+  color: var(--success);
+}
+
+.product-hero {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.product-icon {
+  width: 96px;
+  height: 96px;
+  border-radius: 20px;
+  display: grid;
+  place-items: center;
+  font-size: 46px;
+}
+
+.detail-intro {
+  margin: 8px 0 0;
+  color: var(--muted);
+}
+
+.price-comparison {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  margin: 22px 0;
+}
+
+.price-comparison > div {
+  background: #f8fafc;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 14px;
+}
+
+.price-comparison strong {
+  display: block;
+  font-size: 18px;
+  margin-top: 4px;
+}
+
+.detail-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 22px;
+}
+
+.btn-secondary {
+  background: #eef2ff;
+  color: var(--brand);
+}
+
+.btn-secondary:hover {
+  background: #e0e7ff;
+}
+
+.detail-meta-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.detail-meta-grid > div {
+  background: #f8fafc;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 14px;
+}
+
+.detail-meta-grid h3 {
+  margin: 0 0 6px;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: var(--muted);
+}
+
+.side-card {
+  padding: 20px;
+}
+
+.related-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.related-item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.related-item:last-child {
+  border-bottom: none;
+}
+
+.related-item span {
+  font-size: 13px;
+  color: var(--muted);
+}
+
+/* ---------- Store pages ---------- */
+.store-hero-card {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding: 24px;
+  margin-bottom: 26px;
+}
+
+.store-hero-icon {
+  width: 88px;
+  height: 88px;
+  border-radius: 20px;
+  display: grid;
+  place-items: center;
+  font-size: 40px;
+  background: #eef2ff;
+}
+
+.store-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 18px;
+}
+
+.store-card {
+  padding: 20px;
+  color: var(--text);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.store-card:hover {
+  text-decoration: none;
+  transform: translateY(-2px);
+}
+
+.store-card-icon {
+  font-size: 28px;
+}
+
+.store-card h3 {
+  margin: 0;
+}
+
+.store-card p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+/* ---------- Guide pages ---------- */
+.guide-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 18px;
+}
+
+.guide-card {
+  padding: 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.guide-card h3 {
+  margin: 0;
+}
+
+.guide-card p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.guide-links ul {
+  padding-left: 18px;
+}
+
 /* ---------- Footer ---------- */
 .site-footer {
   background: #0f1525;
@@ -714,6 +981,12 @@ img {
   }
 }
 
+@media (max-width: 920px) {
+  .deal-detail-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
 @media (max-width: 760px) {
   .nav-toggle {
     display: block;
@@ -753,8 +1026,17 @@ img {
   }
 
   .hero-search,
-  .newsletter-form {
+  .newsletter-form,
+  .price-comparison,
+  .detail-meta-grid,
+  .product-hero,
+  .store-hero-card {
     flex-direction: column;
+  }
+
+  .price-comparison,
+  .detail-meta-grid {
+    grid-template-columns: 1fr;
   }
 
   .footer-bottom {

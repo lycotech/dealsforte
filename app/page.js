@@ -37,7 +37,19 @@ export default function HomePage() {
       <DealsSection deals={deals} />
 
       <div className="container">
-        <div className="ad-slot">Advertisement</div>
+        <div className="ad-slot">
+          <div
+            className="affiliate-slot"
+            dangerouslySetInnerHTML={{
+              __html: `
+                <a rel="sponsored" href="https://arkmc.pxf.io/c/5022050/352543/5172" target="_top" id="352543">
+                  <img src="//a.impactradius-go.com/display-ad/5172-352543" alt="Affiliate offer" width="160" height="600" />
+                </a>
+                <img height="0" width="0" src="https://arkmc.pxf.io/i/5022050/352543/5172" style="position:absolute;visibility:hidden;" border="0" alt="" />
+              `,
+            }}
+          />
+        </div>
       </div>
 
       <Newsletter />

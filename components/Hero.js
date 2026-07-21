@@ -9,11 +9,13 @@ export default function Hero({ dealCount, categoryCount }) {
     <section className="hero">
       <div className="container">
         <h1>
-          Smart shoppers <span>save more</span> at DealsForte
+          Today&apos;s best deals, coupons &amp; discount codes
         </h1>
         <p>
-          Discover today&apos;s best deals, coupons, and discounts — hand-picked
-          across electronics, home, fashion, travel and more.
+          DealsForte helps US shoppers discover the latest coupon codes, promo
+          codes, and daily deals across electronics, home &amp; kitchen,
+          fashion, travel, health &amp; beauty, and more. We hand-pick fresh
+          offers so you can compare prices, save money, and shop with confidence.
         </p>
 
         <form

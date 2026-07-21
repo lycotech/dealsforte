@@ -7,6 +7,8 @@ import { useSearch } from "./SearchContext";
 
 const NAV_LINKS = [
   { href: "/", label: "Deals" },
+  { href: "/guides", label: "Guides" },
+  { href: "/stores", label: "Stores" },
   { href: "/about", label: "About" },
   { href: "/contact", label: "Contact" },
   { href: "/affiliate-disclosure", label: "Disclosure" },

@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Amazon",
+    "slug": "amazon",
+    "logo": "📦",
+    "description": "Amazon offers fast shipping and a huge selection of everyday essentials, gadgets, and home favorites."
+  },
+  {
+    "name": "Best Buy",
+    "slug": "best-buy",
+    "logo": "🛍️",
+    "description": "Best Buy is a go-to for consumer electronics, gaming gear, and smart home tech."
+  },
+  {
+    "name": "Target",
+    "slug": "target",
+    "logo": "🎯",
+    "description": "Target combines style, home, and family essentials into one convenient shopping destination."
+  },
+  {
+    "name": "Wayfair",
+    "slug": "wayfair",
+    "logo": "🪑",
+    "description": "Wayfair makes it easy to refresh your home with furniture, décor, and household essentials."
+  },
+  {
+    "name": "Nordstrom",
+    "slug": "nordstrom",
+    "logo": "👞",
+    "description": "Nordstrom is known for designer style, quality fashion staples, and elevated everyday essentials."
+  },
+  {
+    "name": "Macy's",
+    "slug": "macys",
+    "logo": "🧥",
+    "description": "Macy's brings classic fashion, seasonal style, and home-ready staples to shoppers nationwide."
+  },
+  {
+    "name": "Expedia",
+    "slug": "expedia",
+    "logo": "✈️",
+    "description": "Expedia helps travelers compare flights, hotels, and vacation packages for better value."
+  },
+  {
+    "name": "Booking.com",
+    "slug": "booking-com",
+    "logo": "🏨",
+    "description": "Booking.com makes it easy to compare hotels, resorts, and flexible stay options."
+  },
+  {
+    "name": "Sephora",
+    "slug": "sephora",
+    "logo": "💄",
+    "description": "Sephora delivers beauty favorites, skincare essentials, and prestige makeup at a great value."
+  },
+  {
+    "name": "Ulta",
+    "slug": "ulta",
+    "logo": "✨",
+    "description": "Ulta offers makeup, haircare, skincare, and wellness products from top beauty brands."
+  },
+  {
+    "name": "NortonLifeLock",
+    "slug": "nortonlifelock",
+    "logo": "🛡️",
+    "description": "NortonLifeLock provides trusted digital security tools for home, work, and personal devices."
+  },
+  {
+    "name": "pCloud",
+    "slug": "pcloud",
+    "logo": "☁️",
+    "description": "pCloud offers secure cloud storage with simple backup and sharing features for everyday users."
+  },
+  {
+    "name": "Skylum",
+    "slug": "skylum",
+    "logo": "🖼️",
+    "description": "Skylum makes photo editing accessible with creative tools that work for beginners and pros alike."
+  },
+  {
+    "name": "Dick's Sporting Goods",
+    "slug": "dicks-sporting-goods",
+    "logo": "🏀",
+    "description": "Dick's Sporting Goods carries performance gear, activewear, and fitness essentials for every season."
+  }
+]

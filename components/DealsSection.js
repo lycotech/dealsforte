@@ -1,12 +1,13 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import Link from "next/link";
+import { useMemo } from "react";
 import DealCard from "./DealCard";
 import { useSearch } from "./SearchContext";
+import { getCategorySlug } from "../lib/deals";
 
 export default function DealsSection({ deals }) {
   const { query } = useSearch();
-  const [category, setCategory] = useState("All");
 
   const categories = useMemo(
     () => ["All", ...new Set(deals.map((d) => d.category))],
@@ -16,16 +17,15 @@ export default function DealsSection({ deals }) {
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
     return deals.filter((d) => {
-      const matchesCategory = category === "All" || d.category === category;
       const matchesQuery =
         !q ||
         d.title.toLowerCase().includes(q) ||
         d.description.toLowerCase().includes(q) ||
         d.store.toLowerCase().includes(q) ||
         d.category.toLowerCase().includes(q);
-      return matchesCategory && matchesQuery;
+      return matchesQuery;
     });
-  }, [deals, category, query]);
+  }, [deals, query]);
 
   return (
     <section className="section" id="deals">
@@ -35,7 +35,6 @@ export default function DealsSection({ deals }) {
             <h2>Today&apos;s top deals</h2>
             <p>
               {filtered.length} deal{filtered.length === 1 ? "" : "s"}
-              {category !== "All" ? ` in ${category}` : ""}
               {query.trim() ? ` matching “${query.trim()}”` : ""}
             </p>
           </div>
@@ -43,15 +42,14 @@ export default function DealsSection({ deals }) {
 
         <div className="category-bar" role="tablist" aria-label="Deal categories">
           {categories.map((cat) => (
-            <button
+            <Link
               key={cat}
-              className={`chip${category === cat ? " active" : ""}`}
-              onClick={() => setCategory(cat)}
+              href={cat === "All" ? "/" : `/category/${getCategorySlug(cat)}`}
+              className="chip"
               role="tab"
-              aria-selected={category === cat}
             >
               {cat}
-            </button>
+            </Link>
           ))}
         </div>
 
