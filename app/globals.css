@@ -502,11 +502,18 @@ img {
 
 .affiliate-slot {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
+  gap: 24px;
 }
 
-.affiliate-slot img {
+.affiliate-banner {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.affiliate-banner img {
   display: inline-block;
   max-width: 100%;
   height: auto;

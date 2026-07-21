@@ -42,12 +42,12 @@ export default function HomePage() {
             className="affiliate-slot"
             dangerouslySetInnerHTML={{
               __html: `
-                <div style="margin-bottom: 24px; display: inline-flex; justify-content: center; width: 100%;">
+                <div class="affiliate-banner">
                   <a rel="sponsored" href="https://arkmc.pxf.io/c/5022050/352555/5172" target="_top" id="352555">
                     <img src="//a.impactradius-go.com/display-ad/5172-352555" alt="Affiliate offer" width="720" height="90" />
                   </a>
                 </div>
-                <div style="display: inline-flex; justify-content: center; width: 100%;">
+                <div class="affiliate-banner">
                   <a rel="sponsored" href="https://arkmc.pxf.io/c/5022050/352543/5172" target="_top" id="352543">
                     <img src="//a.impactradius-go.com/display-ad/5172-352543" alt="Affiliate offer" width="160" height="600" />
                   </a>
