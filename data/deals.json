@@ -1,5 +1,35 @@
 [
   {
+    "id": 34,
+    "title": "CUSHIONAIRE Casual Adjustable Waterproof Sandals",
+    "category": "Fashion",
+    "store": "Amazon",
+    "description": "Comfortable and waterproof casual sandals with adjustable straps, perfect for everyday wear.",
+    "price": 24.99,
+    "oldPrice": 39.99,
+    "discount": 38,
+    "icon": "👡",
+    "color": "#ffe8f0",
+    "link": "https://www.amazon.com/CUSHIONAIRE-Casual-Adjustable-Waterproof-Sandals/dp/B0H4MVLZXB?tag=phememe25-20&linkCode=as4&ref_=onb_gen_lnk",
+    "featured": true,
+    "expiring": false
+  },
+  {
+    "id": 33,
+    "title": "Hihvls Portable Handheld Rechargeable Fan",
+    "category": "Electronics",
+    "store": "Amazon",
+    "description": "Stay cool on the go with this portable, rechargeable handheld fan. Essential for summer travel and outdoor activities.",
+    "price": 12.99,
+    "oldPrice": 19.99,
+    "discount": 35,
+    "icon": "💨",
+    "color": "#e8f1ff",
+    "link": "https://www.amazon.com/Hihvls-Portable-Handheld-Rechargeable-Essential/dp/B0H8L95SPN?tag=phememe25-20&linkCode=as4&ref_=onb_gen_lnk",
+    "featured": true,
+    "expiring": false
+  },
+  {
     "id": 32,
     "title": "Method Body Instant Hydration Tonic",
     "category": "Health & Beauty",
