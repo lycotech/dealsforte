@@ -1,5 +1,20 @@
 [
   {
+    "id": 30,
+    "title": "Beauty Glazed Dual-Ended Freckle Stamp",
+    "category": "Health & Beauty",
+    "store": "Amazon",
+    "description": "Create natural-looking faux freckles instantly with this waterproof, long-lasting freckle pen.",
+    "price": 9.99,
+    "oldPrice": 14.99,
+    "discount": 33,
+    "icon": "✨",
+    "color": "#fff0f5",
+    "link": "https://www.amazon.com/Beauty-Glazed-Dual-Ended-Freckle-Stamp/dp/B0FKB613SD?tag=phememe25-20&linkCode=as4&ref_=onb_gen_lnk",
+    "featured": true,
+    "expiring": false
+  },
+  {
     "id": 29,
     "title": "Popilush Swimsuit Control Shapewear",
     "category": "Fashion",
