@@ -1,4 +1,4 @@
-import deals from "../data/deals.json";
+import { deals } from "../lib/deals";
 import Hero from "../components/Hero";
 import DealsSection from "../components/DealsSection";
 import Newsletter from "../components/Newsletter";
