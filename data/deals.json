@@ -1,5 +1,20 @@
 [
   {
+    "id": 29,
+    "title": "Popilush Swimsuit Control Shapewear",
+    "category": "Fashion",
+    "store": "Amazon",
+    "description": "Flattering tummy control shapewear swimsuit, perfect for the beach or pool.",
+    "price": 39.99,
+    "oldPrice": 59.99,
+    "discount": 33,
+    "icon": "👙",
+    "color": "#ffe8f0",
+    "link": "https://www.amazon.com/Popilush-Swimsuit-Cnotrol-Shapewear-Swimsuits/dp/B0GZW35K6W?tag=phememe25-20&linkCode=as4&ref_=onb_gen_lnk",
+    "featured": true,
+    "expiring": false
+  },
+  {
     "id": 1,
     "title": "Wireless Noise-Cancelling Headphones",
     "category": "Electronics",
