@@ -1,5 +1,35 @@
 [
   {
+    "id": 32,
+    "title": "Method Body Instant Hydration Tonic",
+    "category": "Health & Beauty",
+    "store": "Amazon",
+    "description": "Nourish and refresh your skin instantly with this fast-absorbing body hydration tonic.",
+    "price": 8.99,
+    "oldPrice": 12.99,
+    "discount": 31,
+    "icon": "🧴",
+    "color": "#eafaf1",
+    "link": "https://www.amazon.com/Method-Body-Instant-Hydration-Tonic/dp/B0GKJ4RTP1?tag=phememe25-20&linkCode=as4&ref_=onb_gen_lnk",
+    "featured": true,
+    "expiring": false
+  },
+  {
+    "id": 31,
+    "title": "Bimi Boo Kids Games",
+    "category": "Software & Apps",
+    "store": "Amazon",
+    "description": "Educational and fun games designed specifically for toddlers and kids.",
+    "price": 1.99,
+    "oldPrice": 4.99,
+    "discount": 60,
+    "icon": "📱",
+    "color": "#e8f1ff",
+    "link": "https://www.amazon.com/Bimi-Kids-Games-boys-girls/dp/B01N7IEYON?tag=phememe25-20&linkCode=as4&ref_=onb_gen_lnk",
+    "featured": true,
+    "expiring": false
+  },
+  {
     "id": 30,
     "title": "Beauty Glazed Dual-Ended Freckle Stamp",
     "category": "Health & Beauty",
