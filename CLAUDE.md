@@ -150,7 +150,7 @@ Currently has 28 sample deals across 8 categories (Electronics, Home & Kitchen, 
 Simple structure for now — title, slug, publish date, body content, and an array of related deal/category slugs to link to internally. Markdown files are fine if that's easier to hand-author than JSON.
 
 ## Monetization placeholders to replace before/after launch
-- **Amazon Associates**: links use `?tag=dealsforte-20` — replace `dealsforte-20` with the real Associates tracking ID once approved.
+- **Amazon Associates**: links use `?tag=phememe25-20` (updated to real Associates tracking ID).
 - **Other affiliate networks (Awin/CJ etc.)**: links use `aff=dealsforte` / `affid=dealsforte` placeholders — replace with real affiliate IDs per network.
 - **Google AdSense**: `.ad-slot` divs (dashed border, "Advertisement" label) are placeholders — replace with real AdSense `<script>`/`<ins>` ad units once approved.
 - **Newsletter**: `Newsletter.js` submit handler just shows a thank-you message — needs real integration (Mailchimp/Beehiiv/ConvertKit) before relying on it.
