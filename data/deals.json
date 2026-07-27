@@ -1,5 +1,20 @@
 [
   {
+    "id": 35,
+    "title": "GNMN Noise Cancelling Headphones",
+    "category": "Electronics",
+    "store": "Amazon",
+    "description": "Waterproof wireless earbuds with built-in microphone and active noise cancelling for immersive sound.",
+    "price": 29.99,
+    "oldPrice": 59.99,
+    "discount": 50,
+    "icon": "🎧",
+    "color": "#e8f1ff",
+    "link": "https://www.amazon.com/GNMN-Cancelling-Headphones-Microphone-Waterproof/dp/B0H455DFMH?tag=phememe25-20&linkCode=ll2&linkId=0ab43f8873c475b7440251e3ec92d2ed&language=en_US&ref_=as_li_ss_tl",
+    "featured": true,
+    "expiring": false
+  },
+  {
     "id": 34,
     "title": "CUSHIONAIRE Casual Adjustable Waterproof Sandals",
     "category": "Fashion",
